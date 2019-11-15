@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang ="en-us">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Landing Page</title>
-	<link rel='stylesheet' type ="text/css" href="style.css">
-	<link rel='stylesheet' type ="text/css" href="navbar.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Max Temp</title>
+  <link rel='stylesheet' type ="text/css" href="style.css">
+  <link rel='stylesheet' type ="text/css" href="navbar.css">
 </head>
-<body>
 
+<body>
 <div class = "navbar">
 <ul>
   <li style="float:right"><a class="active" href="./landingpage.html" target= "_blank">Summary</a></li>
@@ -23,32 +23,26 @@
       <a href="./visual_windspeed.html" target= "_blank">V Wind Speed</a>
       
     </div>
+
 </ul>
 </div>
 
-	<div id ="Summary description">
-		<h1>Summary of Project</h1>
-	<figure class = "box-background">
-		<div class = "img">
-		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\afabella.github.io\Resources\assets\images\Fig1.png" width= 280 height= 285 alt = "Max Temp">
-		</div>
-		<p>
-		The purpose of the project was to analyze weather in different locations. Weather was analyzed by locations and compared to distance from the equator to determine if the equator had any impact on the changes on the changes in weather. Factors that were provided in the data were locations, cloudiness, humidity, max temperature and wind speed.</p> 
-		<p>Four different graphs were provided in the dataset and then Matplotlib was used to plot in order to explaining relationships between weather and location:
-		<center><ol><em>City Latitude vs. Max Temperature</em></ol>
-		<ol><em>City Latitude vs. Humidity</em></ol>
-		<ol><em>City Latitude vs. Cloudiness</em></ol>
-		<ol><em>City Latitude vs. Wind Speed</em></ol></center>
-		</p>
-	</figure>
-	</div>
-<br>
-<br>
-	<div id ="four visualizations">
 
-	<center><h2>Visualizations</h2></center>
+	<h1>Comparison: Latitude Vs. Max temp</h1>
+<div id = "main pic">
+	<figure class = "box-set">
+		<center><img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\afabella.github.io\Resources\assets\images\Fig1.png" width= 550 height= 500 alt = "Max Temp"></center>
+
+		<p> This graph shows the relationship between city latitude and max temperature on the day of 01/05/17.
+		Cities that were right below the equator had higher temperature levels compared to cities that are above the equator where the temperature would significantly decrease when distance was increased from the equator. Areas that have a latitude closest to the equator had the highest temperatures.</p>
+
+	</figure>
+</div>
+<div id ="four visualizations">
+
+	<h2>Visualizations</h2>
 	<p> click graph for more details:</p>
-	<figure class = "box-background">
+	  <figure class = "box-set">
 		<center>
 		<a href="./visual_maxtemp.html" target= "_blank">
 		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\afabella.github.io\Resources\assets\images\Fig1.png" width= 280 height= 285 alt = "Max Temp"></a>
@@ -59,9 +53,10 @@
 		<a href="./visual_windspeed.html" target= "_blank">
 		<img src="\Users\abifabi\Documents\uci_bootcampcopy\UCI-IRV-DATA-PT-08-12-2019-U-C-MW\11-Web\afabella.github.io\Resources\assets\images\Fig4.png" width= 280 height= 285 alt = "Wind Speed"></a>
 		</center>
-	 </figure>
+	  </figure>
+</div>
 
 
-	</div>
 </body>
+
 </html>
